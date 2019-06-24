@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title >
+      Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content text-center color="light">
+  <h2>Configurations</h2>
+
+<ion-item>
+  <ion-label>User Name:</ion-label>
+  <ion-input [(ngModel)]="theUserName"></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-button (click)="saveChanges();" color="dark" expand="block" size="default" > Save </ion-button>
+</ion-item>
+
+</ion-content>
+
+
